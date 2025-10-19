@@ -1,2 +1,5 @@
 # estudoJS
-repositório projetos portfólio / estudo
+repositório projetos portfólio / estudo 
+framework bootstrap
+javaScript
+
