@@ -1,2 +1,2 @@
 # estudoJS
-repositório para acompanhar aulas udemy
+repositório projetos portfólio / estudo
