@@ -54,3 +54,57 @@
         document.getElementById('frase').innerHTML = frase
     }
 
+
+    let nomes = [
+        "Guilherme",
+        "whadmir",
+        "Juit",
+        "Amelie",
+        "Cecilia",
+        "João",
+        "Guilherme",
+        "Maria",
+        "Kayke",
+        "Paiva",
+        "Larissa",
+        "Laura",
+        "Felipe"
+    ]
+
+    function carregarNomes(){
+
+        let intensLista = ''
+        for(indice in nomes){
+            let nome = nomes[indice]
+            intensLista +=
+            `<li class="list-group-item">
+            ${nome}
+            </li>`
+           // alert(intensLista)
+        }
+        document.getElementById('lista').innerHTML = intensLista
+
+
+    }
+
+
+      function pesquisarnomes(){
+
+        let nomePesquisa =  document.getElementById('campoNome').value
+        let intensLista =''
+
+        for(indice in nomes){
+            let nome = nomes[indice]
+            if(nomePesquisa == nome){
+                 intensLista +=`
+            <li class="list-group-item">
+            ${nome}
+            </li>`
+
+            }
+        
+        }
+       document.getElementById('lista').innerHTML = intensLista
+
+    }
+
